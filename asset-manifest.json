@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "./static/css/main.24f7daf7.chunk.css",
+    "main.js": "./static/js/main.94fda8e9.chunk.js",
+    "main.js.map": "./static/js/main.94fda8e9.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8c9895b1.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8c9895b1.js.map",
+    "static/css/2.6f69eccc.chunk.css": "./static/css/2.6f69eccc.chunk.css",
+    "static/js/2.51c21007.chunk.js": "./static/js/2.51c21007.chunk.js",
+    "static/js/2.51c21007.chunk.js.map": "./static/js/2.51c21007.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.6f69eccc.chunk.css.map": "./static/css/2.6f69eccc.chunk.css.map",
+    "static/css/main.24f7daf7.chunk.css.map": "./static/css/main.24f7daf7.chunk.css.map",
+    "static/js/2.51c21007.chunk.js.LICENSE.txt": "./static/js/2.51c21007.chunk.js.LICENSE.txt",
+    "static/media/ShopByCategory.scss": "./static/media/tablets-by-category.528ae87d.svg",
+    "static/media/banner-accessories.bdd2e0fc.png": "./static/media/banner-accessories.bdd2e0fc.png",
+    "static/media/banner-phones.b4eeda8b.png": "./static/media/banner-phones.b4eeda8b.png",
+    "static/media/banner-tablets.a962057c.png": "./static/media/banner-tablets.a962057c.png",
+    "static/media/DropDown.scss": "./static/media/chevron-arrow-up.1ea6958a.svg",
+    "static/media/BackButton.scss": "./static/media/chevron-left-solid.c65c2299.svg",
+    "static/media/ProductSlider.scss": "./static/media/chevron-right-solid.9e14bc8d.svg",
+    "static/media/CardItem.scss": "./static/media/plus.dea15724.svg",
+    "static/media/all.css": "./static/media/fa-v4compatibility.b3049b13.woff2",
+    "static/media/Footer.scss": "./static/media/footer-arrow-top.a61ad2d0.svg",
+    "static/media/AddToFavourites.scss": "./static/media/red-heart.d554a185.svg",
+    "static/media/BreadCrumbs.scss": "./static/media/home-icon.e110292a.svg",
+    "static/media/Navbar.scss": "./static/media/shopping-bag-navbar.9d5d0d40.svg",
+    "static/media/Logo.scss": "./static/media/logo-catalog.13ce922e.svg",
+    "static/media/Search.scss": "./static/media/search-loop.eb670dd9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c9895b1.js",
+    "static/css/2.6f69eccc.chunk.css",
+    "static/js/2.51c21007.chunk.js",
+    "static/css/main.24f7daf7.chunk.css",
+    "static/js/main.94fda8e9.chunk.js"
+  ]
+}
