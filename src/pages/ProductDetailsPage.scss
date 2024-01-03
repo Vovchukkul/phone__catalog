@@ -278,6 +278,14 @@
   margin-bottom: 25px;
 }
 
+.about__description {
+  max-width: 560px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 .about__title {
   font-size: 22px;
   font-weight: 700;
@@ -285,6 +293,20 @@
   border-bottom: 1px solid rgba(226, 230, 233, 1);
   padding-bottom: 16px;
   margin-bottom: 25px;
+}
+
+.ProductDetailsPage__more-about-article-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(49, 50, 55, 1);
+  font-family: 'Montserat', sans-serif;
+  margin-bottom: 16px;
+}
+
+.ProductDetailsPage__more-about-article-info {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(137, 147, 154, 1);
 }
 
 .productCardPage__slider {

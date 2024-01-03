@@ -4,6 +4,11 @@ interface Battery {
   type: string;
 }
 
+interface Description {
+  title: string,
+  text: string,
+}
+
 interface Camera {
   features: string[];
   primary: string;
@@ -52,7 +57,7 @@ export interface ProductDetails {
   battery: Battery;
   camera: Camera;
   connectivity: Connectivity;
-  description: string[];
+  description: Description[];
   display: Display;
   hardware: Hardware;
   id: string;

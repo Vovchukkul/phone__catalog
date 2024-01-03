@@ -291,7 +291,25 @@ export const ProductCardPage: React.FC<Props> = ({ products }) => {
                 <h2 className="about__title">About</h2>
 
                 <div className="about__description">
-                  {currentProductDetails?.description.join(' ')}
+                  {currentProductDetails.description.map(item => (
+                    <article
+                      key={item.title}
+                      className="ProductDetailsPage__more-about-article"
+                    >
+                      <h3
+                        className="ProductDetailsPage__more-about-article-title"
+                      >
+                        {item.title}
+                      </h3>
+
+                      <p
+                        className="ProductDetailsPage__more-about-article-info"
+                        data-cy="productDescription"
+                      >
+                        {item.text}
+                      </p>
+                    </article>
+                  ))}
                 </div>
               </div>
 
