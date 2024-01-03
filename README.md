@@ -1,9 +1,8 @@
-# React TypeScript Starter Pack
+# Description
+- simple internet shop(only phones were available for use)
 
-To use this template click `Use this template`
+# Here is the mockup
+- [FIGMA](https://www.figma.com/file/uEetgWenSRxk9jgiym6Yzp/Phone-catalog-redesign?type=design&node-id=1-2&mode=design&t=aE1FekIwTOXIoed8-0)
 
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+# Demo
+- [DEMO LINK]();

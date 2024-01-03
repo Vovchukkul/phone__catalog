@@ -1,27 +1,16 @@
 import React from 'react';
-import './App.scss';
+import { Outlet } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.css';
+import 'bulma/css/bulma.css';
+import { Navbar } from './components/Navbar';
+import { Footer } from './components/Footer';
 
-interface Props {
-  onClick: () => void;
-}
-
-export const Provider: React.FC<Props> = React.memo(
-  ({ onClick, children }) => (
-    <button
-      type="button"
-      onClick={onClick}
-    >
-      {children}
-    </button>
-  ),
-);
-
-export const App: React.FC = () => {
+export const App = () => {
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>
-        <TodoList />
-      </Provider>
+    <div data-cy="app">
+      <Navbar />
+      <Outlet />
+      <Footer />
     </div>
   );
 };
